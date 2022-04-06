@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.cardContainer{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}

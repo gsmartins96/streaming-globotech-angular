@@ -1,0 +1,12 @@
+<h1>Entre em contato:</h1>
+
+<div class="contactContainer">
+    <ul class="contactList">
+        <li *ngFor="let contact of contacts" >
+            <button>
+                <img [src]=contact.image>
+                <a [href]=contact.socialMediaUrl>{{contact.socialMediaName}}</a>
+            </button>
+        </li>
+    </ul>
+</div>
